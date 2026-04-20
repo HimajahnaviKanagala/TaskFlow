@@ -14,7 +14,22 @@ console.log(
   API_KEY ? `gsk_...${API_KEY.slice(-6)}` : "NOT FOUND ❌",
 );
 
-app.use(cors({ origin: "*" }));
+const allowedOrigins = [
+  "http://localhost:5173",
+  process.env.FRONTEND_URL,
+].filter(Boolean);
+
+app.use(
+  cors({
+    origin: (origin, callback) => {
+      if (!origin) return callback(null, true);
+      if (allowedOrigins.some((o) => origin.startsWith(o))) {
+        return callback(null, true);
+      }
+      callback(new Error("Not allowed by CORS"));
+    },
+  }),
+);
 app.use(express.json());
 
 app.get("/", (req, res) => {
