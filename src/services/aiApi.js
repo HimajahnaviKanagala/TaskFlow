@@ -1,4 +1,5 @@
-const AI_PROXY_URL = "http://localhost:3001/api/ai";
+const AI_PROXY_URL =
+  import.meta.env.VITE_AI_PROXY_URL || "http://localhost:3001/api/ai";
 
 export async function sendMessageToAI(messages, systemPrompt) {
   const response = await fetch(AI_PROXY_URL, {
