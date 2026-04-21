@@ -1,5 +1,5 @@
 # TaskFlow — Project Management Tool
-> A full-stack project management tool built with React 18, Supabase, and AI-powered features. Built solo in a 6-day sprint as part of a React internship program.
+ A full-stack project management tool built with React 18, Supabase, and AI-powered features. Built solo in a 6-day sprint as part of a React internship program.
 
 ---
 
@@ -7,9 +7,9 @@
 
 | | Link |
 |---|---|
-| **Frontend** | https://your-taskflow.vercel.app |
+| **Frontend** | [https://your-taskflow.vercel.app](https://task-flow-wheat-seven.vercel.app/) |
 | **AI Backend** | https://taskflow-rnsw.onrender.com |
-| **GitHub** | https://github.com/YOUR_USERNAME/taskflow |
+| **GitHub** | [https://github.com/YOUR_USERNAME/taskflow](https://github.com/HimajahnaviKanagala/TaskFlow) |
 
 ---
 
@@ -262,9 +262,6 @@ This project uses **two separate deployments** from one GitHub repository.
 ✅ Update Render  → FRONTEND_URL = your Vercel URL
 ✅ Update Supabase → Authentication → URL Configuration → your Vercel URL
 ```
-
-> **Note:** On Render's free plan, the server sleeps after 15 minutes of inactivity. The first AI request after sleeping takes ~30 seconds. Subsequent requests are fast.
-
 ---
 
 ## 📜 Available Scripts
