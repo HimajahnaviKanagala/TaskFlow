@@ -7,7 +7,7 @@
 
 | | Link |
 |---|---|
-| **Frontend** | [https://your-taskflow.vercel.app](https://task-flow-wheat-seven.vercel.app/) |
+| **Frontend** | https://task-flow-wheat-seven.vercel.app |
 | **AI Backend** | https://taskflow-rnsw.onrender.com |
 | **GitHub** | [https://github.com/YOUR_USERNAME/taskflow](https://github.com/HimajahnaviKanagala/TaskFlow) |
 
